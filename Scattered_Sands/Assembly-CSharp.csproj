@@ -45,8 +45,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
      <Compile Include="Assets\ChrisStuff\Hit.cs" />
      <Compile Include="Assets\ChrisStuff\NavAgent.cs" />
+=======
+>>>>>>> origin/master
      <Compile Include="Assets\Scripts\EnemyFollow.cs" />
      <Compile Include="Assets\Scripts\SpiralGoggles.cs" />
      <Compile Include="Assets\Scripts\WinGame.cs" />
