@@ -4,9 +4,9 @@ using System.Collections;
 public class SpiralGoggles : MonoBehaviour {
 
     public Light splight;
-    public float coolDown = 20;
+    public float coolDown;
     public float coolDownTimer;
-
+    public float timeLimit;
     // Use this for initialization
     void Start()
     {
@@ -38,10 +38,26 @@ public class SpiralGoggles : MonoBehaviour {
             coolDownTimer = 0;
         }
 
-        if(Input.GetKeyDown(KeyCode.R) && coolDownTimer == 0)
+        if(timeLimit > 0)
+        {
+            timeLimit -= Time.deltaTime;
+        }
+
+        if(timeLimit < 0)
+        {
+            timeLimit = 0;
+        }
+
+        if(Input.GetKey(KeyCode.R) && coolDownTimer == 0)
         {
             enableLight();
-            coolDownTimer = coolDown;
+            
+            if(timeLimit == 0)
+            {
+                CoolDown();
+            }
+
+            timeLimit = 20;
         }
 
     }
@@ -52,5 +68,15 @@ public class SpiralGoggles : MonoBehaviour {
         {
             splight.enabled = true;
         }
+        else
+        {
+            splight.enabled = false;
+        }
+    }
+
+    void CoolDown()
+    {
+        splight.enabled = false;
+        coolDownTimer = coolDown;
     }
 }
