@@ -1269,6 +1269,7 @@ GameObject:
   - 4: {fileID: 463498199}
   - 108: {fileID: 463498201}
   - 114: {fileID: 463498200}
+  - 65: {fileID: 463498202}
   m_Layer: 0
   m_Name: SpiralGogglesR
   m_TagString: Untagged
@@ -1301,8 +1302,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splight: {fileID: 463498201}
-  coolDown: 5
-  coolDownTimer: 0
+  stun: 0
+  stunned: 0
 --- !u!108 &463498201
 Light:
   m_ObjectHideFlags: 0
@@ -1337,6 +1338,18 @@ Light:
   m_BounceIntensity: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!65 &463498202
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 463498198}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.5, z: 10}
+  m_Center: {x: 0, y: 0, z: 5.2}
 --- !u!1001 &487505094
 Prefab:
   m_ObjectHideFlags: 0
@@ -4731,6 +4744,7 @@ GameObject:
   - 4: {fileID: 1728930935}
   - 108: {fileID: 1728930937}
   - 114: {fileID: 1728930936}
+  - 65: {fileID: 1728930938}
   m_Layer: 0
   m_Name: SpiralGogglesL
   m_TagString: Untagged
@@ -4763,8 +4777,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splight: {fileID: 1728930937}
-  coolDown: 5
-  coolDownTimer: 0
+  stun: 0
+  stunned: 0
 --- !u!108 &1728930937
 Light:
   m_ObjectHideFlags: 0
@@ -4799,6 +4813,18 @@ Light:
   m_BounceIntensity: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!65 &1728930938
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1728930934}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.5, z: 10}
+  m_Center: {x: 0, y: 0, z: 5.2}
 --- !u!1001 &1745429710
 Prefab:
   m_ObjectHideFlags: 0
