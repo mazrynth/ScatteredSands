@@ -54,7 +54,6 @@
      <Compile Include="Assets\Taylor Stuff\Death.cs" />
      <Compile Include="Assets\Taylor Stuff\Pause_Game.cs" />
      <Compile Include="Assets\Taylor Stuff\menu_script.cs" />
-     <None Include="Assets\Scenes\Meow( Delete later).txt" />
      <None Include="Assets\Scripts\X-Ray.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
