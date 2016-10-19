@@ -1168,7 +1168,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 1380667339}
-  Player: {fileID: 1471753277}
+  Player: {fileID: 1034509207}
   Continue: {fileID: 101914802}
   exit: {fileID: 921436826}
 --- !u!224 &429900892
