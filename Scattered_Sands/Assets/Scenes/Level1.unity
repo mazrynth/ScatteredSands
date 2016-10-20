@@ -1705,7 +1705,6 @@ MonoBehaviour:
   slotPaddingTop: 2
   slotSize: 60
   slotPrefab: {fileID: 1000012726813304, guid: f2e233615c3a3e147ad0a6875b69ab0a, type: 2}
-  allSlots: []
 --- !u!114 &494069251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6052,11 +6051,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ae17d6afc866bd840bdee791cbc8cfe6, type: 3}
   m_IsPrefabParent: 0
---- !u!1 &1983780239 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1000011340788518, guid: 449756c57db2c7442b9a711f0d3cb4e7,
-    type: 2}
-  m_PrefabInternal: {fileID: 2111510766}
 --- !u!1 &1986926663
 GameObject:
   m_ObjectHideFlags: 0
@@ -6510,22 +6504,6 @@ Prefab:
       propertyPath: inventory
       value: 
       objectReference: {fileID: 494069250}
-    - target: {fileID: 136000010284126110, guid: 449756c57db2c7442b9a711f0d3cb4e7,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000010209431362, guid: 449756c57db2c7442b9a711f0d3cb4e7,
-        type: 2}
-      propertyPath: rock
-      value: 
-      objectReference: {fileID: 1000013681913186, guid: 99d1f320b98718a45b776fd7fef3b008,
-        type: 2}
-    - target: {fileID: 114000010209431362, guid: 449756c57db2c7442b9a711f0d3cb4e7,
-        type: 2}
-      propertyPath: throwPos
-      value: 
-      objectReference: {fileID: 1983780239}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 449756c57db2c7442b9a711f0d3cb4e7, type: 2}
   m_IsPrefabParent: 0
