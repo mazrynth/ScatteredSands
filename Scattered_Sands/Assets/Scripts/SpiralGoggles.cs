@@ -4,7 +4,7 @@ using System.Collections;
 public class SpiralGoggles : MonoBehaviour {
 
     public Light splight;
-    public GameObject dazed;
+    public GameObject enemy;
     public NavMeshAgent nav;
     public float stun = 0;
     public bool stunned = false;
@@ -16,9 +16,7 @@ public class SpiralGoggles : MonoBehaviour {
     void Start()
     {
         splight = GetComponent<Light>();
-        nav = GetComponent<NavMeshAgent>();
-        dazed = GameObject.FindWithTag("Stunned");
-        dazed.gameObject.SetActive(false);
+        nav = enemy.GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
@@ -29,10 +27,12 @@ public class SpiralGoggles : MonoBehaviour {
            if (splight.enabled == false)
             {
                 splight.enabled = true;
+                stunned = true;
             }
             else
             {
                 splight.enabled = false;
+                stunned = false;
             }
         }
 
@@ -44,7 +44,7 @@ public class SpiralGoggles : MonoBehaviour {
             if (stun < 3f)
             {
                 //turn on the stun game object with the collider
-                dazed.gameObject.SetActive(true);
+                
                 //stop the navigation of the object
                 nav.Stop();
 
@@ -52,7 +52,7 @@ public class SpiralGoggles : MonoBehaviour {
             else
             {
                 //turn off the stun game object so it doesn't hit anything else
-                dazed.gameObject.SetActive(false);
+                
                 //set stun back to false
                 stunned = false;
                 //reset the stun timer
@@ -65,10 +65,10 @@ public class SpiralGoggles : MonoBehaviour {
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider col)
     {
         //if something with the tag Stun collides with it then stunned = true;
-        if (other.gameObject.CompareTag("Stunned"))
+        if (col.gameObject.tag == "Enemy")
         {
             Debug.Log("Stunned");
             stunned = true;
