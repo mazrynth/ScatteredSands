@@ -11,7 +11,7 @@ public class Inventory : MonoBehaviour {
 	public float slotPaddingLeft, slotPaddingTop;
 	public float slotSize;
 	public GameObject slotPrefab;
-	private List<GameObject> allSlots;
+	public List<GameObject> allSlots;
 	private int emptySlot;
 
 	// Use this for initialization
