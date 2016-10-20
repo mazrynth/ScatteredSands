@@ -4,8 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Rock
-  - Enemy
+  - Item
   layers:
   - Default
   - TransparentFX
