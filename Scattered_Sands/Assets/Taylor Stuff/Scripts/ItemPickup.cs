@@ -26,7 +26,7 @@ public class ItemPickup : MonoBehaviour {
 		if (other.tag == "Item") 
 		{
 			inventory.AddItem (other.GetComponent<Item> ());
-			//Destroy (other.gameObject);
+			Destroy (other.gameObject);
 			Debug.Log ("Collided");
 		}
 	}
