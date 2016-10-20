@@ -3,13 +3,14 @@ using System.Collections;
 
 public class Hit : MonoBehaviour {
 
-	public RaycastHit pub_thing;
+	public static RaycastHit pub_thing;
 	public Transform pickup;
+	Camera camera;
 
 	// Use this for initialization
 	void Start () {
 	
-
+		camera = GetComponentInChildren<Camera> ();
 
 	}
 	
@@ -21,7 +22,7 @@ public class Hit : MonoBehaviour {
 		RaycastHit thing;
 		if (Physics.Raycast (this.transform.position, line.direction, out thing, 10) && Input.GetKeyDown (KeyCode.E)) {
 			pub_thing = thing;
-			if (pub_thing.transform.tag == "Rock") {
+			if (pub_thing.transform.tag == "Item") {
 				pub_thing.transform.position = pickup.transform.position;
 				pub_thing.transform.SetParent (pickup);
 				pub_thing.rigidbody.useGravity = false;
@@ -34,7 +35,7 @@ public class Hit : MonoBehaviour {
 				pub_thing.rigidbody.isKinematic = false;
 				pub_thing.rigidbody.useGravity = true;
 				pickup.DetachChildren ();
-				pub_thing.rigidbody.AddForce (Camera.main.transform.forward * 500);
+				pub_thing.rigidbody.AddForce (camera.transform.forward * 500);
 				Debug.Log ("Throw");
 			}
 		}
