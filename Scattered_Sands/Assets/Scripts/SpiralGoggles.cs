@@ -32,7 +32,6 @@ public class SpiralGoggles : MonoBehaviour {
             else
             {
                 splight.enabled = false;
-                stunned = false;
             }
         }
 
@@ -40,14 +39,14 @@ public class SpiralGoggles : MonoBehaviour {
         {
             //start the timer for the stun 
             stun += Time.deltaTime;
-            //stun for 3 seconds (greater than 3 seconds resumes movement)
-            if (stun < 3f)
+            //stun for 5 seconds (greater than 3 seconds resumes movement)
+            if (stun < 5f)
             {
                 //turn on the stun game object with the collider
                 
-                //stop the navigation of the object
-                nav.Stop();
-
+                    //stop the navigation of the object
+                    nav.Stop();
+                
             }
             else
             {
