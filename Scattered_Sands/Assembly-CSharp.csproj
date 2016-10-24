@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\ChrisStuff\NavAgent.cs" />
      <Compile Include="Assets\ChrisStuff\Throw.cs" />
+     <Compile Include="Assets\Scripts\BlastCouplings.cs" />
      <Compile Include="Assets\Scripts\EnemyFollow.cs" />
      <Compile Include="Assets\Scripts\SpiralGoggles.cs" />
      <Compile Include="Assets\Scripts\WinGame.cs" />
