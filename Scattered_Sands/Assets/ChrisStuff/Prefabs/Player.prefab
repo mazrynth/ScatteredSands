@@ -410,8 +410,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef86cf6b1cc821f418a8f52649d8f40f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickup: {fileID: 4000013959173746}
-  camera: {fileID: 20000012085366586}
+  throwPos: {fileID: 0}
+  rock: {fileID: 0}
 --- !u!114 &114000010909488564
 MonoBehaviour:
   m_ObjectHideFlags: 1
