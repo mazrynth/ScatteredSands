@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\EnemyFollow.cs" />
     <Compile Include="Assets\Scripts\SpiralGoggles.cs" />
     <Compile Include="Assets\Scripts\WinGame.cs" />
+    <Compile Include="Assets\Taylor Stuff\Scripts\Achievement.cs" />
     <Compile Include="Assets\Taylor Stuff\Scripts\Camera_Follow.cs" />
     <Compile Include="Assets\Taylor Stuff\Scripts\Death.cs" />
     <Compile Include="Assets\Taylor Stuff\Scripts\Inventory.cs" />
