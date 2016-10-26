@@ -29,7 +29,7 @@ public class menu_script : MonoBehaviour {
 	public void StartLevel()
 
 	{
-		SceneManager.LoadScene ("Level1");
+		SceneManager.LoadScene ("VERTICAL_SLICE_TutorialLevel");
 	}
 
 	public void ExitGame ()
