@@ -1548,7 +1548,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'ACHIEVEMENT UNLOCKED
 
-    YOU GRABBED THE RED GEAR'
+    YOU GRABBED THE GREEN GEAR'
 --- !u!222 &443866832
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2004,6 +2004,24 @@ Transform:
   - {fileID: 1757443087}
   m_Father: {fileID: 782656617}
   m_RootOrder: 0
+--- !u!1 &752886527 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013195361194, guid: 197e8968b3f8daf468307b232f004b25,
+    type: 2}
+  m_PrefabInternal: {fileID: 1279653405}
+--- !u!114 &752886532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 752886527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bdcd32684a62ca40b4832fbfcf351f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 886377444}
+  canvas: {fileID: 1429336587}
 --- !u!1001 &758177288
 Prefab:
   m_ObjectHideFlags: 0
@@ -3034,7 +3052,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'ACHIEVEMENT UNLOCKED
 
-    YOU GRABBED THE RED GEAR'
+    YOU GRABBED THE BLUE GEAR'
 --- !u!222 &885194499
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3665,24 +3683,6 @@ Transform:
   - {fileID: 1493411105}
   m_Father: {fileID: 1757443087}
   m_RootOrder: 3
---- !u!1 &981387748 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1000010656470806, guid: 197e8968b3f8daf468307b232f004b25,
-    type: 2}
-  m_PrefabInternal: {fileID: 1095822914}
---- !u!114 &981387750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 981387748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bdcd32684a62ca40b4832fbfcf351f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player: {fileID: 2028569251}
-  canvas: {fileID: 142396905}
 --- !u!1 &1018730569
 GameObject:
   m_ObjectHideFlags: 0
@@ -6001,10 +6001,10 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1093022288}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: -0.7068626, y: -0, z: -0, w: 0.7073509}
   m_LocalPosition: {x: 104.07, y: 29.34, z: 12.23}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -89.94601, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
@@ -9368,6 +9368,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1471140331}
   m_RootOrder: 0
+--- !u!1 &1365850109 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013195361194, guid: 197e8968b3f8daf468307b232f004b25,
+    type: 2}
+  m_PrefabInternal: {fileID: 1095822914}
+--- !u!114 &1365850114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1365850109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bdcd32684a62ca40b4832fbfcf351f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 886377444}
+  canvas: {fileID: 142396905}
 --- !u!1 &1373000011
 GameObject:
   m_ObjectHideFlags: 0
@@ -12353,9 +12371,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1707848845}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: ee2ad4530a55c6b41823c8457b408002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rock: {fileID: 1302552424}
+  goggles: {fileID: 1994375259}
+  gauntlet: {fileID: 1830710401}
+  blade: {fileID: 1440905663}
 --- !u!114 &1707848848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13905,6 +13927,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1704803825}
   m_RootOrder: 0
+--- !u!1 &2110469709 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013195361194, guid: 197e8968b3f8daf468307b232f004b25,
+    type: 2}
+  m_PrefabInternal: {fileID: 1205808374}
+--- !u!114 &2110469714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2110469709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bdcd32684a62ca40b4832fbfcf351f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 886377444}
+  canvas: {fileID: 1284514895}
 --- !u!1 &2119380126
 GameObject:
   m_ObjectHideFlags: 0

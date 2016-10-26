@@ -31,6 +31,8 @@ public class Achievement : MonoBehaviour {
 			if (canvas.gameObject.activeInHierarchy == false)
 			{
 				canvas.gameObject.SetActive (true);	
+				StartCoroutine (Calm());
+				
 			} 
 
 			else 
@@ -38,5 +40,10 @@ public class Achievement : MonoBehaviour {
 				canvas.gameObject.SetActive (false);
 			}
 
+		}
+
+		IEnumerator Calm() {
+		yield return new WaitForSeconds (3);
+		canvas.gameObject.SetActive (false);
 		}
 }
