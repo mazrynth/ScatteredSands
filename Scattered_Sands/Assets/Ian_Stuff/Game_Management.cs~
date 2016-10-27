@@ -275,7 +275,7 @@ public class Game_Management : MonoBehaviour
 			}
 
 			//else if one of the gears is missing...
-			else if(gear_Array[i] == false)
+			else if(gear_Array2[i] == false)
 			{
 				//Break / stop checking:
 				print("missing a gear");
