@@ -19,11 +19,12 @@ public class ItemPickup : MonoBehaviour {
 		
 	}
 
-	public void OnTriggerEnter(Collider other)
+	private void OnTriggerEnter(Collider other)
 	{
 		Debug.Log ("Collided");
 		if (other.tag == "Item") 
 		{
+			
 			Destroy (other.gameObject);
 		}
 		if (other.tag == "Rock") 
