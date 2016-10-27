@@ -1,0 +1,25 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class Particle_Destroy : MonoBehaviour {
+
+	// Use this for initialization
+	void Start () 
+	{
+		particle_Destroyer();
+	}
+	
+	// Update is called once per frame
+	void Update () 
+	{
+	
+	}
+
+
+	public void particle_Destroyer()
+	{
+		Destroy (gameObject);
+	}
+
+
+}

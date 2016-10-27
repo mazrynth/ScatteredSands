@@ -1,0 +1,36 @@
+﻿
+var Player : Transform;
+ var MoveSpeed = 4;
+ var MaxDist = 2;
+ var MinDist = 2;
+ 
+ 
+ 
+ 
+ function Start () 
+ {
+ 	print("Working");
+ }
+ 
+ function Update () 
+ {
+     transform.LookAt(Player);
+     
+     if(Vector3.Distance(transform.position,Player.position) >= MinDist)
+     {
+     		//GO towards Player.
+          transform.position += transform.forward*MoveSpeed*Time.deltaTime;
+ 
+           
+           
+          if(Vector3.Distance(transform.position,Player.position) <= MaxDist)
+            {
+            	//Player has been caught.
+                //Here Call any function U want Like Shoot at here or something
+                 print("Meow!");
+                 //Returns player to main menu:
+                 SceneManager.LoadScene ("Start_Menu");
+    		} 
+    
+    }
+ }
