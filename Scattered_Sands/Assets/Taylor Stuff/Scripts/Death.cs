@@ -64,7 +64,7 @@ public class Death : MonoBehaviour {
 	public void RestartLevel()
 
 	{
-		SceneManager.LoadScene ("MyScene");
+		SceneManager.LoadScene (1);
 	}
 
 	public void Menu ()
