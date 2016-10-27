@@ -18,10 +18,11 @@ public class Throw : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-			if (Input.GetButtonDown ("Fire1")) {
+			if (Input.GetButtonDown ("Fire1") && ItemPickup.gotRock == true) {
 				Instantiate(rock, throwPos.transform.position, throwPos.transform.rotation);
 				Rigidbody physics = rock.GetComponent<Rigidbody>();
 				physics.AddForce (camera.transform.forward * 500);
+				ItemPickup.gotRock = false;
 				Debug.Log ("Throw");
 			}
 		}

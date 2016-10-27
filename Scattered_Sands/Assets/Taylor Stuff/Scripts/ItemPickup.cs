@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 public class ItemPickup : MonoBehaviour {
 
-
+	public static bool gotRock = false;
 	public Inventory inventory;
 
 	// Use this for initialization
@@ -20,14 +20,15 @@ public class ItemPickup : MonoBehaviour {
 		
 	}
 
-	private void OnTriggerEnter(Collider other)
+	public void OnTriggerEnter(Collider other)
 	{
-
+		Debug.Log ("Collided");
 		if (other.tag == "Item") 
 		{
 			inventory.AddItem (other.GetComponent<Item> ());
 			Destroy (other.gameObject);
-			Debug.Log ("Collided");
+			gotRock = true;
+
 		}
 	}
 }
