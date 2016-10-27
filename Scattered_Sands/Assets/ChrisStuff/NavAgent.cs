@@ -32,28 +32,24 @@ public class NavAgent : MonoBehaviour {
 				wp++;
 			}
 		}
-		if (wp == 4) {
-			wp = 0;
-		}
+			
 		}
 
-	void OnTriggerEnter (Collider other){
-		timer = 0;
+	void OnTriggerStay (Collider other){
 		if (wp == 4) {
 			wp = 0;
 		}
 		if (other.gameObject.CompareTag ("Player")) {
-			agent.SetDestination (other.transform.position);
-		} 
-	}
-	void OnTriggerStay (Collider other){
-		if (other.gameObject.CompareTag ("Rock")) {
-			timer += Time.deltaTime;
-			if (timer < 3) {
-				agent.SetDestination (other.transform.position);
+			player = other.gameObject;
+			agent.SetDestination (player.transform.position);
+		} else if (other.gameObject.CompareTag ("Rock")) {
+			rock = other.gameObject;
+			if (timer < 3 && thrown == true) {
+				timer += Time.deltaTime;
+				agent.SetDestination (rock.transform.position);
 			} else {
 				agent.SetDestination (waypoints [wp].position);
-
+				thrown = false;
 			}
 		} 
 	}
