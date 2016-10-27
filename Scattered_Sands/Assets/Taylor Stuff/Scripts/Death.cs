@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class Death : MonoBehaviour {
 
 	public Transform Player;
-	int MaxDist = 5;
+	int MaxDist = 2;
 
 	public Transform canvas;
 	public Button Restart;

@@ -323,7 +323,8 @@ Prefab:
       propertyPath: m_Name
       value: Rock (3)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114000013357622960, guid: 99d1f320b98718a45b776fd7fef3b008, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 99d1f320b98718a45b776fd7fef3b008, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &114630113 stripped
@@ -2135,6 +2136,26 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
+--- !u!1 &636261448 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013681913186, guid: 99d1f320b98718a45b776fd7fef3b008,
+    type: 2}
+  m_PrefabInternal: {fileID: 1044983438}
+--- !u!114 &636261452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 636261448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4cb75dc0cf94704596a74ca7c6731e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  spriteNeutral: {fileID: 21300000, guid: 9e409cc478d076e429731bdd2fe350e3, type: 3}
+  spriteHighlighted: {fileID: 21300000, guid: 55e6ecffd0b21614c9699947d0c6c353, type: 3}
+  maxSize: 1
 --- !u!1 &658371175
 GameObject:
   m_ObjectHideFlags: 0
@@ -3292,7 +3313,8 @@ Prefab:
       propertyPath: m_Name
       value: Rock (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114000013357622960, guid: 99d1f320b98718a45b776fd7fef3b008, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 99d1f320b98718a45b776fd7fef3b008, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &864283946
@@ -3408,7 +3430,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 5
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114000013357622960, guid: 99d1f320b98718a45b776fd7fef3b008, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 99d1f320b98718a45b776fd7fef3b008, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &872834145
@@ -4376,7 +4399,8 @@ Prefab:
       propertyPath: m_Name
       value: Rock (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114000013357622960, guid: 99d1f320b98718a45b776fd7fef3b008, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 99d1f320b98718a45b776fd7fef3b008, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1059389122
@@ -9028,6 +9052,26 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
+--- !u!1 &1174498695 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013681913186, guid: 99d1f320b98718a45b776fd7fef3b008,
+    type: 2}
+  m_PrefabInternal: {fileID: 854847415}
+--- !u!114 &1174498699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1174498695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4cb75dc0cf94704596a74ca7c6731e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  spriteNeutral: {fileID: 21300000, guid: 9e409cc478d076e429731bdd2fe350e3, type: 3}
+  spriteHighlighted: {fileID: 21300000, guid: 55e6ecffd0b21614c9699947d0c6c353, type: 3}
+  maxSize: 1
 --- !u!1 &1176789909
 GameObject:
   m_ObjectHideFlags: 0
@@ -10285,6 +10329,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1382648312}
   m_RootOrder: 0
+--- !u!1 &1424148008 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013681913186, guid: 99d1f320b98718a45b776fd7fef3b008,
+    type: 2}
+  m_PrefabInternal: {fileID: 871720733}
+--- !u!114 &1424148012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1424148008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4cb75dc0cf94704596a74ca7c6731e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  spriteNeutral: {fileID: 21300000, guid: 9e409cc478d076e429731bdd2fe350e3, type: 3}
+  spriteHighlighted: {fileID: 21300000, guid: 55e6ecffd0b21614c9699947d0c6c353, type: 3}
+  maxSize: 1
 --- !u!1 &1429336581
 GameObject:
   m_ObjectHideFlags: 0
@@ -13374,6 +13438,26 @@ Transform:
   - {fileID: 778438606}
   m_Father: {fileID: 1757443087}
   m_RootOrder: 7
+--- !u!1 &1719459752 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000013681913186, guid: 99d1f320b98718a45b776fd7fef3b008,
+    type: 2}
+  m_PrefabInternal: {fileID: 88771970}
+--- !u!114 &1719459756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1719459752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4cb75dc0cf94704596a74ca7c6731e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 0
+  spriteNeutral: {fileID: 21300000, guid: 9e409cc478d076e429731bdd2fe350e3, type: 3}
+  spriteHighlighted: {fileID: 21300000, guid: 55e6ecffd0b21614c9699947d0c6c353, type: 3}
+  maxSize: 1
 --- !u!1 &1728884171
 GameObject:
   m_ObjectHideFlags: 0
