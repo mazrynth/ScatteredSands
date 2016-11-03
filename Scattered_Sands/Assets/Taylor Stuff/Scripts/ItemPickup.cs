@@ -39,6 +39,7 @@ public class ItemPickup : MonoBehaviour {
 			if (haveRock == false) {
 				Destroy (other.gameObject);
 				gotRock = true;
+				haveRock = true;
 			}
 		}
 	}
