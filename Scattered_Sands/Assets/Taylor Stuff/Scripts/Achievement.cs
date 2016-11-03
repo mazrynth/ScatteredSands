@@ -18,14 +18,22 @@ public class Achievement : MonoBehaviour {
 		
 	
 	// Update is called once per frame
-	void Update () {
+	/*void Update () {
 			if(Vector3.Distance(transform.position,Player.position) <= MaxDist)
 			{
 				Show ();
 			}
+	}*/
+
+	private void OnTriggerEnter(Collider other)
+	{	
+		if (other.tag == "Item") {
+			Show ();
+			Destroy (other.gameObject);
+		}
 	}
 
-		public void Show()
+	public void Show()
 		{
 
 			if (canvas.gameObject.activeInHierarchy == false)
