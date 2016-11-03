@@ -7,6 +7,7 @@ using System.Collections.Generic;
 
 public class ItemPickup : MonoBehaviour {
 
+	public static bool haveRock = false;
 	public static bool gotRock = false;
 	public Image pic;
 
@@ -35,8 +36,10 @@ public class ItemPickup : MonoBehaviour {
 		}
 		if (other.tag == "Rock") 
 		{
-			Destroy (other.gameObject);
-			gotRock = true;
+			if (haveRock == false) {
+				Destroy (other.gameObject);
+				gotRock = true;
+			}
 		}
 	}
 }
