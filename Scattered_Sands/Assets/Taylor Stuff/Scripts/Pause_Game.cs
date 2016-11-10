@@ -11,10 +11,16 @@ public class Pause_Game : MonoBehaviour {
 	public Button Continue;
 	public Button exit;
 	AudioSource level_Music;
-
+	int game_State;
 	void Start () 
 	{
+		game_State = 1;
+		Time.timeScale = 1;
 		level_Music = gameObject.GetComponent<AudioSource>();
+		if (game_State == 0) {
+			game_State = 1;
+			Time.timeScale = 1;
+		}
 	}
 
 

@@ -18,6 +18,8 @@ public class Death : MonoBehaviour {
 	public float cur_health = 0f;
 	public Image Bar;
 	bool flag = false;
+	public CapsuleCollider collider1;
+
 
 
 
@@ -26,7 +28,14 @@ public class Death : MonoBehaviour {
 		//1 = running
 		cur_health = max_health;
 		game_State = 1;
+		Time.timeScale = 1;
 		Screen.lockCursor = true;
+		Player.GetComponent<FirstPersonController> ().enabled = true;
+
+		if (game_State == 0) {
+			game_State = 1;
+			Time.timeScale = 1;
+		}
 
 	}
 
@@ -50,19 +59,25 @@ public class Death : MonoBehaviour {
 
 	void OnTriggerEnter (Collider other)
 	{
-		if(other.gameObject.name == Player.name)
-		{
+		//if(other.gameObject.name == Player.name)
+		//{
 			print("Player hit");
 
-			//Add health bar check system here
-			decreaseHealth();
+
+			if (other == collider1) {
+				//Add health bar check system here
+				decreaseHealth ();
+				print("Player hit2");
+
+
+			}
 
 
 			/*if (game_State == 1) {
 				Show ();
 				game_State = 0;
 			}*/
-		} 
+		//} 
 	}
 
 	void decreaseHealth() {
@@ -120,6 +135,7 @@ public class Death : MonoBehaviour {
 
 	{
 		SceneManager.LoadScene (1);
+		game_State = 1;
 	}
 
 	public void Menu ()
