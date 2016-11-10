@@ -14,16 +14,20 @@ public class Death : MonoBehaviour {
 	public Button MainMenu;
 	public Button Exit;
 	int game_State;
-
-
+	public float max_health = 100f;
+	public float cur_health = 0f;
+	public Image Bar;
+	bool flag = false;
 
 
 
 	public void Start () 
 	{
 		//1 = running
+		cur_health = max_health;
 		game_State = 1;
 		Screen.lockCursor = true;
+
 	}
 
 	public void Update () 
@@ -38,6 +42,9 @@ public class Death : MonoBehaviour {
 			}
 		} 
 		*/
+		if (flag)
+			Calm ();
+			
 	}
 
 
@@ -48,14 +55,42 @@ public class Death : MonoBehaviour {
 			print("Player hit");
 
 			//Add health bar check system here
+			decreaseHealth();
 
-			if (game_State == 1) {
+
+			/*if (game_State == 1) {
 				Show ();
 				game_State = 0;
-			}
+			}*/
 		} 
 	}
 
+	void decreaseHealth() {
+		
+
+		cur_health -= 25f;
+		float calc_health = cur_health/max_health;
+		SetHealth (calc_health);
+		flag = true;
+
+		//StartCoroutine(Calm());
+
+
+		if(cur_health <= 0)
+			Show();
+	}
+
+
+	void SetHealth(float myhealth){
+		Bar.fillAmount = myhealth;			
+	}
+
+
+	IEnumerator Calm() {
+		print("Player hit2");
+		yield return new WaitForSeconds (5);
+
+	}
 
 
 
