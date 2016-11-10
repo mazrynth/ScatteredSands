@@ -13,7 +13,6 @@ public class NavAgent : MonoBehaviour {
 	public int wp = 0;
 	public static bool thrown;
 
-
 	// Use this for initialization
 	void Start () {
 		agent = Ai.GetComponent <NavMeshAgent>();
