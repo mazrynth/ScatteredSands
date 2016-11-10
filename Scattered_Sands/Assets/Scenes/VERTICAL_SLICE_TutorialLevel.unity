@@ -785,6 +785,7 @@ MonoBehaviour:
   max_health: 100
   cur_health: 0
   Bar: {fileID: 851742527}
+  collider1: {fileID: 0}
 --- !u!1 &160704283
 GameObject:
   m_ObjectHideFlags: 0
@@ -2185,7 +2186,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &456337945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3498,7 +3499,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &779621492
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4886,6 +4887,12 @@ Transform:
   - {fileID: 1493411105}
   m_Father: {fileID: 1757443087}
   m_RootOrder: 3
+--- !u!114 &980035083 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114000011618930058, guid: 1e296f5b084e55c4c8da4ff367d5ecae,
+    type: 2}
+  m_PrefabInternal: {fileID: 1383430529}
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1 &1000081150
 GameObject:
   m_ObjectHideFlags: 0
@@ -5511,7 +5518,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1058259155
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11433,7 +11440,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1323197776
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12944,6 +12951,46 @@ Prefab:
       propertyPath: m_Radius
       value: 1.5671368
       objectReference: {fileID: 0}
+    - target: {fileID: 114000011487329224, guid: 650f61515fbd76a479a8ed9898f22dfb,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000011487329224, guid: 650f61515fbd76a479a8ed9898f22dfb,
+        type: 2}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 886377444}
+    - target: {fileID: 114000011487329224, guid: 650f61515fbd76a479a8ed9898f22dfb,
+        type: 2}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 1908669735}
+    - target: {fileID: 114000011487329224, guid: 650f61515fbd76a479a8ed9898f22dfb,
+        type: 2}
+      propertyPath: Restart
+      value: 
+      objectReference: {fileID: 751787291}
+    - target: {fileID: 114000011487329224, guid: 650f61515fbd76a479a8ed9898f22dfb,
+        type: 2}
+      propertyPath: MainMenu
+      value: 
+      objectReference: {fileID: 2012546915}
+    - target: {fileID: 114000011487329224, guid: 650f61515fbd76a479a8ed9898f22dfb,
+        type: 2}
+      propertyPath: Exit
+      value: 
+      objectReference: {fileID: 980035083}
+    - target: {fileID: 114000011487329224, guid: 650f61515fbd76a479a8ed9898f22dfb,
+        type: 2}
+      propertyPath: Bar
+      value: 
+      objectReference: {fileID: 851742527}
+    - target: {fileID: 114000011487329224, guid: 650f61515fbd76a479a8ed9898f22dfb,
+        type: 2}
+      propertyPath: collider1
+      value: 
+      objectReference: {fileID: 672817422}
     m_RemovedComponents:
     - {fileID: 114000012184383372, guid: 650f61515fbd76a479a8ed9898f22dfb, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 650f61515fbd76a479a8ed9898f22dfb, type: 2}
@@ -15047,7 +15094,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1651344777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15897,7 +15944,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1877621015
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16892,6 +16939,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2010810488}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2012546915 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114000010230817246, guid: 1e296f5b084e55c4c8da4ff367d5ecae,
+    type: 2}
+  m_PrefabInternal: {fileID: 1383430529}
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1 &2031915488
 GameObject:
   m_ObjectHideFlags: 0
@@ -17270,7 +17323,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &2092175730
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17380,7 +17433,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2116399589
 MonoBehaviour:
   m_ObjectHideFlags: 0
