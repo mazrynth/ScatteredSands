@@ -18,18 +18,20 @@ public class Achievement : MonoBehaviour {
 		
 	
 	// Update is called once per frame
-	/*void Update () {
-			if(Vector3.Distance(transform.position,Player.position) <= MaxDist)
+	void Update () {
+			/*if(Vector3.Distance(transform.position,Player.position) <= MaxDist)
 			{
 				Show ();
-			}
-	}*/
+			}*/
+		if(Input.GetKeyDown(KeyCode.B))
+			canvas.gameObject.SetActive (false);
+	}
 
 	private void OnTriggerEnter(Collider other)
 	{	
-		if (other.tag == "Item") {
+		if (other.tag == "Player") {
 			Show ();
-			Destroy (other.gameObject);
+			//Destroy (other.gameObject);
 		}
 	}
 
@@ -43,6 +45,8 @@ public class Achievement : MonoBehaviour {
 				
 			} 
 
+			
+
 			else 
 			{
 				canvas.gameObject.SetActive (false);
@@ -51,7 +55,7 @@ public class Achievement : MonoBehaviour {
 		}
 
 		IEnumerator Calm() {
-		yield return new WaitForSeconds (3);
+		yield return new WaitForSeconds (2);
 		canvas.gameObject.SetActive (false);
 		}
 }
