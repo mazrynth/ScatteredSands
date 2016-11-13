@@ -1302,7 +1302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splight: {fileID: 463498201}
-  dazed: {fileID: 0}
+  enemy: {fileID: 0}
   nav: {fileID: 856763744}
   stun: 0
   stunned: 0
@@ -3659,7 +3659,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0372172b599a5564ab800370d4b2ce30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 591683090}
 --- !u!4 &1253256223 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 5c1938bc4e7b2154e862b6a983f9c220, type: 3}
@@ -4958,6 +4957,23 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1689248202}
+--- !u!1 &1706273681 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_PrefabInternal: {fileID: 1181452226}
+--- !u!114 &1706273686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1706273681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd0fb4034f6a1474aae12c6a0189a5b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blastCouplings: {fileID: 1000012395497816, guid: ae0fc27eb9879644999aa61495c72039,
+    type: 2}
 --- !u!1 &1728930934
 GameObject:
   m_ObjectHideFlags: 0
@@ -5001,7 +5017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splight: {fileID: 1728930937}
-  dazed: {fileID: 0}
+  enemy: {fileID: 0}
   nav: {fileID: 856763744}
   stun: 0
   stunned: 0
@@ -5523,7 +5539,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a25a0d4fadc07046a4c08775a5a0ad0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 591683090}
 --- !u!1 &1991391801
 GameObject:
   m_ObjectHideFlags: 0
