@@ -1,0 +1,40 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class stop_Moving : MonoBehaviour {
+
+	//Reference NavAgent script:
+	NavAgent2 NavAgent;
+
+
+
+	// Use this for initialization
+	void Start () 
+	{
+		NavAgent = gameObject.GetComponentInParent<NavAgent2>();
+	}
+	
+	// Update is called once per frame
+	void Update () 
+	{
+	
+	}
+
+
+	void OnCollisionEnter (Collider other)
+	{
+		if (other.gameObject.CompareTag ("Player")) 
+		{
+			print("stopped moving");
+			//NavAgent.stop_Moving();
+		} 
+	}
+
+	void OnCollisionExit (Collider other)
+	{
+		print("Resume");
+		//NavAgent.stopped_Moving = false;
+	}
+
+
+}
