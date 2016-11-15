@@ -19,6 +19,7 @@ public class Death : MonoBehaviour {
 	public Image Bar;
 	bool flag = false;
 	public CapsuleCollider collider1;
+	public GameObject box;
 
 
 
@@ -68,6 +69,10 @@ public class Death : MonoBehaviour {
 				//Add health bar check system here
 				decreaseHealth ();
 				print("Player hit2");
+
+			if (other == box) {
+				SavePosition ();
+			}
 
 
 			}
@@ -129,6 +134,24 @@ public class Death : MonoBehaviour {
 			Screen.lockCursor = true;
 		}
 
+	}
+		
+	public void SavePosition()
+		{
+			PlayerPrefs.SetFloat ("PlayerX", transform.position.x);
+			PlayerPrefs.SetFloat ("PlayerY", transform.position.y);
+			PlayerPrefs.SetFloat ("PlayerZ", transform.position.z);
+		}
+
+
+	public void Respawn() {
+		
+			float x = PlayerPrefs.GetFloat ("PlayerX");
+			float y = PlayerPrefs.GetFloat ("PlayerY");
+			float z = PlayerPrefs.GetFloat ("PlayerZ");
+
+			transform.position = new Vector3 (x, y, z);
+	
 	}
 
 	public void RestartLevel()

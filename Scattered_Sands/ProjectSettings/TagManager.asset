@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Stunned
   - Item
+  - Respawn
   layers:
   - Default
   - TransparentFX
