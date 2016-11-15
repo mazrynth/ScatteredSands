@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.28084233, g: 0.3122582, b: 0.36161876, a: 1}
+  m_IndirectSpecularColor: {r: 0.28084213, g: 0.31225798, b: 0.3616183, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -969,6 +969,7 @@ MonoBehaviour:
   cur_health: 0
   Bar: {fileID: 0}
   collider1: {fileID: 0}
+  box: {fileID: 0}
 --- !u!195 &114584766
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1885,6 +1886,7 @@ MonoBehaviour:
   cur_health: 0
   Bar: {fileID: 0}
   collider1: {fileID: 0}
+  box: {fileID: 0}
 --- !u!1001 &156666491
 Prefab:
   m_ObjectHideFlags: 0
@@ -6432,6 +6434,7 @@ MonoBehaviour:
   cur_health: 0
   Bar: {fileID: 0}
   collider1: {fileID: 0}
+  box: {fileID: 0}
 --- !u!1 &673019788
 GameObject:
   m_ObjectHideFlags: 0
@@ -6722,7 +6725,7 @@ Prefab:
     - target: {fileID: 2300062, guid: 9393e44974af7864e8b91c0870a96dfb, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 09fe6dc18a1d90c4c88ca93c0313385f, type: 2}
+      objectReference: {fileID: 2100000, guid: 1572d34ee7e06954794bfb8b1777aa5a, type: 2}
     - target: {fileID: 2300036, guid: 9393e44974af7864e8b91c0870a96dfb, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -6810,7 +6813,7 @@ Prefab:
     - target: {fileID: 2300062, guid: 9393e44974af7864e8b91c0870a96dfb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 09fe6dc18a1d90c4c88ca93c0313385f, type: 2}
+      objectReference: {fileID: 2100000, guid: 1572d34ee7e06954794bfb8b1777aa5a, type: 2}
     - target: {fileID: 2300032, guid: 9393e44974af7864e8b91c0870a96dfb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -6846,7 +6849,7 @@ Prefab:
     - target: {fileID: 2300058, guid: 9393e44974af7864e8b91c0870a96dfb, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 0c6b25ffbae3ab649afc714ed75e4490, type: 2}
+      objectReference: {fileID: 2100000, guid: c5c58662b83e0dc42a1dd5afa4fbdc3a, type: 2}
     - target: {fileID: 2300038, guid: 9393e44974af7864e8b91c0870a96dfb, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
@@ -7289,6 +7292,7 @@ MonoBehaviour:
   cur_health: 0
   Bar: {fileID: 0}
   collider1: {fileID: 672817422}
+  box: {fileID: 0}
 --- !u!135 &747854933
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -17464,6 +17468,7 @@ MonoBehaviour:
   cur_health: 0
   Bar: {fileID: 0}
   collider1: {fileID: 0}
+  box: {fileID: 0}
 --- !u!23 &1278629901
 MeshRenderer:
   m_ObjectHideFlags: 0

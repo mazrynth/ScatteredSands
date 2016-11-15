@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 7d1603a4427bdd143b87efdd03b225ee
+timeCreated: 1479196019
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: L_Clavicle
+    100002: L_Elbow
+    100004: L_Foot
+    100006: L_Hand_HelperJoint
+    100008: L_Index_Knuckle
+    100010: L_Index_Mid
+    100012: L_Index_Tip
+    100014: L_Leg_Ankle
+    100016: L_Leg_Hip
+    100018: L_Leg_Knee
+    100020: L_Middle_Knuckle
+    100022: L_Middle_Mid
+    100024: L_Middle_Tip
+    100026: L_Pinky_Knuckle
+    100028: L_Pinky_Mid
+    100030: L_Pinky_Tip
+    100032: L_Ring_Knuckle
+    100034: L_Ring_Mid
+    100036: L_Ring_Tip
+    100038: L_Shoulder
+    100040: L_Thumb_Knuckle
+    100042: L_Thumb_Mid
+    100044: L_Thumb_Tip
+    100046: L_Wrist
+    100048: //RootNode
+    100050: R_Clavicle
+    100052: R_Elbow
+    100054: R_Foot
+    100056: R_Hand_HelperJoint
+    100058: R_Index_Knuckle
+    100060: R_Index_Mid
+    100062: R_Index_Tip
+    100064: R_Leg_Ankle
+    100066: R_Leg_Hip
+    100068: R_Leg_Knee
+    100070: R_Middle_Knuckle
+    100072: R_Middle_Mid
+    100074: R_Middle_Tip
+    100076: R_Pinky_Knuckle
+    100078: R_Pinky_Mid
+    100080: R_Pinky_Tip
+    100082: R_Ring_Knuckle
+    100084: R_Ring_Mid
+    100086: R_Ring_Tip
+    100088: R_Shoulder
+    100090: R_Thumb_Knuckle
+    100092: R_Thumb_Mid
+    100094: R_Thumb_Tip
+    100096: R_Wrist
+    100098: Spine_Head
+    100100: Spine_Hip
+    100102: Spine_Mid
+    100104: Spine_Neck
+    100106: Spine_Neck_Base
+    400000: L_Clavicle
+    400002: L_Elbow
+    400004: L_Foot
+    400006: L_Hand_HelperJoint
+    400008: L_Index_Knuckle
+    400010: L_Index_Mid
+    400012: L_Index_Tip
+    400014: L_Leg_Ankle
+    400016: L_Leg_Hip
+    400018: L_Leg_Knee
+    400020: L_Middle_Knuckle
+    400022: L_Middle_Mid
+    400024: L_Middle_Tip
+    400026: L_Pinky_Knuckle
+    400028: L_Pinky_Mid
+    400030: L_Pinky_Tip
+    400032: L_Ring_Knuckle
+    400034: L_Ring_Mid
+    400036: L_Ring_Tip
+    400038: L_Shoulder
+    400040: L_Thumb_Knuckle
+    400042: L_Thumb_Mid
+    400044: L_Thumb_Tip
+    400046: L_Wrist
+    400048: //RootNode
+    400050: R_Clavicle
+    400052: R_Elbow
+    400054: R_Foot
+    400056: R_Hand_HelperJoint
+    400058: R_Index_Knuckle
+    400060: R_Index_Mid
+    400062: R_Index_Tip
+    400064: R_Leg_Ankle
+    400066: R_Leg_Hip
+    400068: R_Leg_Knee
+    400070: R_Middle_Knuckle
+    400072: R_Middle_Mid
+    400074: R_Middle_Tip
+    400076: R_Pinky_Knuckle
+    400078: R_Pinky_Mid
+    400080: R_Pinky_Tip
+    400082: R_Ring_Knuckle
+    400084: R_Ring_Mid
+    400086: R_Ring_Tip
+    400088: R_Shoulder
+    400090: R_Thumb_Knuckle
+    400092: R_Thumb_Mid
+    400094: R_Thumb_Tip
+    400096: R_Wrist
+    400098: Spine_Head
+    400100: Spine_Hip
+    400102: Spine_Mid
+    400104: Spine_Neck
+    400106: Spine_Neck_Base
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
