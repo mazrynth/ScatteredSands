@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Seamless stone texture light
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Name: Spiralbot Hieroglypic
+  m_Shader: {fileID: 4800000, guid: e7806a864b29cbd45ad78c3a5ce54bcb, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 1
   m_CustomRenderQueue: -1
@@ -48,7 +48,7 @@ Material:
     - first:
         name: _MainTex
       second:
-        m_Texture: {fileID: 2800000, guid: e6b155a9ced32c64da9dd4393bc29b1a, type: 3}
+        m_Texture: {fileID: 2800000, guid: dccbc2dda875ac348956a22cbe5b54a9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - first:
