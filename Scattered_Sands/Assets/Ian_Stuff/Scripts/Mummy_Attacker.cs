@@ -4,12 +4,14 @@ using System.Collections;
 public class Mummy_Attacker : MonoBehaviour 
 {
 	//Define Variables:
+	public AudioSource attack_Sound;
 	public Transform Player;
 	//int MaxDist = 2;
 	public int attack_Speed = 100;
 	private IEnumerator attack_Cooldown;
 	bool mummy_Cooldown;
 	Player_Health health_Script;
+
 	//public Player_Health health_Script;
 
 	//Get Animator:
@@ -23,7 +25,7 @@ public class Mummy_Attacker : MonoBehaviour
 		mummy_Cooldown = false;				
 		anim = GetComponentInParent<Animator>();
 		health_Script = Player.GetComponent<Player_Health>();
-
+		attack_Sound = GetComponent<AudioSource>();
 		/*
 		//Test:
 		print("Test call" + health_Script.max_health);
@@ -46,6 +48,7 @@ public class Mummy_Attacker : MonoBehaviour
 			print("Cooldown?" + mummy_Cooldown);
 			if (mummy_Cooldown == false) 
 			{
+				attack_Sound.Play();
 				print("RAWR!");
 				anim.SetTrigger("Attack");
 				mummy_Cooldown = true;	

@@ -46,6 +46,7 @@ public class Pause_Game : MonoBehaviour {
 		//Pauses the game if it isn't paused.
 		if (canvas.gameObject.activeInHierarchy == false)
 		{
+			AudioListener.pause = true;
 			level_Music.Pause();
 			canvas.gameObject.SetActive (true);
 			Time.timeScale = 0;
@@ -56,6 +57,7 @@ public class Pause_Game : MonoBehaviour {
 		//unpauses the game if it is paused.
 		else 
 		{
+			AudioListener.pause = false;
 			level_Music.UnPause();
 			canvas.gameObject.SetActive (false);
 			Time.timeScale = 1;

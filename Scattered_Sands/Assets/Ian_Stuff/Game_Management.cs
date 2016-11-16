@@ -11,6 +11,8 @@ public class Game_Management : MonoBehaviour
 
 	//Array of sound effects:
 	public AudioClip[] sound_Effects;
+	public AudioSource default_Music;
+	public AudioSource chase_Music;
 
 
 	//Array for gear booleans:
@@ -288,5 +290,35 @@ public class Game_Management : MonoBehaviour
 		AudioSource.PlayClipAtPoint(sound_Effects[2], secret_Door.transform.position);
 		Destroy (secret_Door);
 	}
+
+
+
+	public void play_Chase(bool isPlaying)
+	{
+		//If chase music should activate...
+		if(isPlaying == true)
+		{
+			default_Music.Pause();
+			chase_Music.Play();
+		}
+
+		//else the default music resumes...
+		else
+		{
+			default_Music.UnPause();
+			chase_Music.Stop();
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
 
 }
