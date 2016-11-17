@@ -9,6 +9,7 @@ TagManager:
   - Stunned
   - Item
   - Respawn
+  - Rotate
   layers:
   - Default
   - TransparentFX
