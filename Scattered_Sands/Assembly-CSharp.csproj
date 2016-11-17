@@ -38,10 +38,10 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>E:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>E:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -65,6 +65,9 @@
      <Compile Include="Assets\Ian_Stuff\Scripts\guiding_Light.cs" />
      <Compile Include="Assets\Ian_Stuff\Scripts\light_Obelisk.cs" />
      <Compile Include="Assets\Ian_Stuff\Scripts\light_Obelisk_Fin.cs" />
+     <Compile Include="Assets\Ian_Stuff\Scripts\light_Pillar.cs" />
+     <Compile Include="Assets\Ian_Stuff\Scripts\light_Pillar_Fin.cs" />
+     <Compile Include="Assets\Ian_Stuff\Scripts\pillar_Puzzle.cs" />
      <Compile Include="Assets\Ian_Stuff\Scripts\respawn_Node.cs" />
      <Compile Include="Assets\Ian_Stuff\Scripts\rotate_Puzzle.cs" />
      <Compile Include="Assets\Ian_Stuff\Scripts\rotate_Statue.cs" />
@@ -176,13 +179,13 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
