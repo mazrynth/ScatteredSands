@@ -26,20 +26,37 @@ public class ItemSelection : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.Alpha1)) {
 			Goggles();
+			goggles.gameObject.SetActive (true);
+			gauntlet.gameObject.SetActive (false);
+			blade.gameObject.SetActive (false);
+			rock.gameObject.SetActive (false);
 			goggles = goggles.GetComponent<Button> ();
 		}
 		if (Input.GetKeyDown (KeyCode.Alpha2)) {
 			Gauntlet();
+			gauntlet.gameObject.SetActive (true);
+			goggles.gameObject.SetActive (false);
+			blade.gameObject.SetActive (false);
+			rock.gameObject.SetActive (false);
 			gauntlet = gauntlet.GetComponent<Button> ();
 		}
 		if (Input.GetKeyDown (KeyCode.Alpha3)) {
 			Blade();
+			blade.gameObject.SetActive (true);
+			gauntlet.gameObject.SetActive (false);
+			goggles.gameObject.SetActive (false);
+			rock.gameObject.SetActive (false);
 			blade = blade.GetComponent<Button> ();
 		}
-		if (Input.GetKeyDown (KeyCode.Alpha4)) {
+		/*if (Input.GetKeyDown (KeyCode.Alpha4)) {
 			Rock();
+			rock.gameObject.SetActive (true);
+			gauntlet.gameObject.SetActive (false);
+			blade.gameObject.SetActive (false);
+			goggles.gameObject.SetActive (false);
 			rock = rock.GetComponent<Button> ();
 		}
+		*/
 	}
 
 	public void Rock() {
