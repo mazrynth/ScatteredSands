@@ -9,14 +9,13 @@ public class NavAgent : MonoBehaviour {
 	public GameObject Ai;
 	public GameObject player;
 	public GameObject rock;
-	public static NavMeshAgent agent;
+	private NavMeshAgent agent;
 	public int wp = 0;
 	public static bool thrown;
 
 	// Use this for initialization
 	void Start () {
-		agent = Ai.GetComponent <NavMeshAgent>();
-
+		agent = this.GetComponent <NavMeshAgent>();
 	}
 	
 	// Update is called once per frame
@@ -24,13 +23,9 @@ public class NavAgent : MonoBehaviour {
 		
 		//timer += Time.deltaTime;
 		if (agent.remainingDistance < 0.5) {
-			if (wp == 0) {
-				agent.SetDestination (waypoints [wp++].position);
-			} else {
 				agent.SetDestination (waypoints [wp].position);
 				wp++;
 			}
-		}
 		if (wp == 4) {
 			wp = 0;
 		}
@@ -48,7 +43,7 @@ public class NavAgent : MonoBehaviour {
 	void OnTriggerStay (Collider other){
 		if (other.gameObject.CompareTag ("Rock")) {
 			timer += Time.deltaTime;
-			if (timer < 3) {
+			if (timer < 2.5) {
 				agent.SetDestination (other.transform.position);
 			} else {
 				agent.SetDestination (waypoints [wp].position);

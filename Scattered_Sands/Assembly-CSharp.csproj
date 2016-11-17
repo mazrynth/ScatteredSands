@@ -58,6 +58,7 @@
      <Compile Include="Assets\Ian_Stuff\Scripts\Enemy_Sounds.cs" />
      <Compile Include="Assets\Ian_Stuff\Scripts\Mummy_Attacker.cs" />
      <Compile Include="Assets\Ian_Stuff\Scripts\NavAgent2.cs" />
+     <Compile Include="Assets\Ian_Stuff\Scripts\Play_Cutscene.cs" />
      <Compile Include="Assets\Ian_Stuff\Scripts\Player_Health.cs" />
      <Compile Include="Assets\Ian_Stuff\Scripts\respawn_Node.cs" />
      <Compile Include="Assets\Ian_Stuff\Toggle_Icon.cs" />
