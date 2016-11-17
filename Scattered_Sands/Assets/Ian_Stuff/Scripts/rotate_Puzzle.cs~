@@ -14,7 +14,7 @@ public class rotate_Puzzle : MonoBehaviour
 	public AudioClip open_Door;
 
 	//Define variables:
-	GameObject[] rotationStatues;
+	public GameObject[] rotationStatues;
 
 
 	// Use this for initialization
