@@ -10,6 +10,9 @@ TagManager:
   - Item
   - Respawn
   - Rotate
+  - Blast
+  - 'Spiral '
+  - Fire
   layers:
   - Default
   - TransparentFX

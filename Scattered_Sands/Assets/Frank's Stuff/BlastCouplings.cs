@@ -5,9 +5,9 @@ public class BlastCouplings : MonoBehaviour {
 
     public GameObject blastCouplings;
     //GameObject clone;
-    Vector3 dir = new Vector3(0, 0, 5);
     float cooldownTimer = 0;
     float fireDelay = 20.0f;
+    public Transform shootPos;
 
     // Use this for initialization
     void Start()
@@ -22,8 +22,8 @@ public class BlastCouplings : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.F) && cooldownTimer <= 0)
         {
-            GameObject clone = Instantiate(blastCouplings, transform.position, Quaternion.identity) as GameObject;
-            clone.GetComponent<Rigidbody>().AddForce(dir * 700);
+            GameObject clone = Instantiate(blastCouplings, shootPos.position, shootPos.rotation) as GameObject;
+            clone.GetComponent<Rigidbody>().AddForce(shootPos.forward * 2500);
             Debug.Log("Blast Coupling shot");
             cooldownTimer = fireDelay;
         }
