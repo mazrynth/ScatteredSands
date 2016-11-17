@@ -8829,6 +8829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blastCouplings: {fileID: 1000013681913186, guid: 99d1f320b98718a45b776fd7fef3b008,
     type: 2}
+  shootPos: {fileID: 0}
 --- !u!114 &672817429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24121,6 +24122,12 @@ Prefab:
         type: 2}
       propertyPath: movie
       value: 
+      objectReference: {fileID: 15200000, guid: fa9e0edcbd5cd7547a8c21a5f9e76aec,
+        type: 3}
+    - target: {fileID: 82000013587557370, guid: 78d4acfb874b4ea4ba9096bd4b740710,
+        type: 2}
+      propertyPath: BypassListenerEffects
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 78d4acfb874b4ea4ba9096bd4b740710, type: 2}

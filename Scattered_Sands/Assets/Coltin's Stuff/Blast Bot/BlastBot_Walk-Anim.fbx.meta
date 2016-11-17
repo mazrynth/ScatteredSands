@@ -67,7 +67,75 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: L_LEG_CTRL
+        weight: 1
+      - path: R_LEG_CTRL
+        weight: 1
+      - path: Skeleton:Hips1
+        weight: 1
+      - path: Skeleton:Hips1/Skeleton:L_UPR_Leg
+        weight: 1
+      - path: Skeleton:Hips1/Skeleton:L_UPR_Leg/Skeleton:L_Knee
+        weight: 1
+      - path: Skeleton:Hips1/Skeleton:L_UPR_Leg/Skeleton:L_Knee/Skeleton:L_Ankle
+        weight: 1
+      - path: Skeleton:Hips1/Skeleton:L_UPR_Leg/Skeleton:L_Knee/Skeleton:L_Ankle/Skeleton:L_Toe
+        weight: 1
+      - path: Skeleton:Hips1/Skeleton:L_UPR_Leg/Skeleton:L_Knee/Skeleton:L_Ankle/Skeleton:L_Toe/Skeleton:L_ToeEnd
+        weight: 1
+      - path: Skeleton:Hips1/Skeleton:R_UPR_Leg
+        weight: 1
+      - path: Skeleton:Hips1/Skeleton:R_UPR_Leg/Skeleton:R_Knee
+        weight: 1
+      - path: Skeleton:Hips1/Skeleton:R_UPR_Leg/Skeleton:R_Knee/Skeleton:R_Ankle
+        weight: 1
+      - path: Skeleton:Hips1/Skeleton:R_UPR_Leg/Skeleton:R_Knee/Skeleton:R_Ankle/Skeleton:R_Toe
+        weight: 1
+      - path: Skeleton:Hips1/Skeleton:R_UPR_Leg/Skeleton:R_Knee/Skeleton:R_Ankle/Skeleton:R_Toe/Skeleton:R_ToeEnd
+        weight: 1
+      - path: Skeleton:Hips1/Skeleton:Spine_01
+        weight: 1
+      - path: Skeleton:Hips1/Skeleton:Spine_01/Skeleton:Spine_02
+        weight: 1
+      - path: Skeleton:Hips1/Skeleton:Spine_01/Skeleton:Spine_02/Skeleton:Spine_03
+        weight: 1
+      - path: Skeleton:Hips1/Skeleton:Spine_01/Skeleton:Spine_02/Skeleton:Spine_03/Skeleton:Neck_01
+        weight: 1
+      - path: Skeleton:Hips1/Skeleton:Spine_01/Skeleton:Spine_02/Skeleton:Spine_03/Skeleton:Neck_01/Skeleton:Head_Bottom
+        weight: 1
+      - path: Skeleton:Hips1/Skeleton:Spine_01/Skeleton:Spine_02/Skeleton:Spine_03/Skeleton:Neck_01/Skeleton:Head_Bottom/Skeleton:Head_Top
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
     isReadable: 1
   meshes:
     lODScreenPercentages: []

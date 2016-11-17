@@ -66,6 +66,7 @@ public class Mummy_Attacker : MonoBehaviour
 			print("Cooldown?" + mummy_Cooldown);
 			if (mummy_Cooldown == false) 
 			{
+				attack_Sound.Play();
 				print("RAWR!");
 				anim.SetTrigger("Attack");
 				mummy_Cooldown = true;	

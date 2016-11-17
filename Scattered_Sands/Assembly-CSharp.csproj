@@ -49,6 +49,7 @@
      <Compile Include="Assets\ChrisStuff\Throw.cs" />
      <Compile Include="Assets\Frank&apos;s Stuff\BlastCouplings.cs" />
      <Compile Include="Assets\Frank&apos;s Stuff\ProjectileExplosion.cs" />
+     <Compile Include="Assets\Frank&apos;s Stuff\SecretDoor.cs" />
      <Compile Include="Assets\Frank&apos;s Stuff\SpiralGoggles.cs" />
      <Compile Include="Assets\Ian_Stuff\Anim_Test.cs" />
      <Compile Include="Assets\Ian_Stuff\Game_Management.cs" />

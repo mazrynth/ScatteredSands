@@ -135,7 +135,143 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Spine_Hip
+        weight: 1
+      - path: Spine_Hip/L_Leg_Hip
+        weight: 1
+      - path: Spine_Hip/L_Leg_Hip/L_Leg_Knee
+        weight: 1
+      - path: Spine_Hip/L_Leg_Hip/L_Leg_Knee/L_Leg_Ankle
+        weight: 1
+      - path: Spine_Hip/L_Leg_Hip/L_Leg_Knee/L_Leg_Ankle/L_Foot
+        weight: 1
+      - path: Spine_Hip/R_Leg_Hip
+        weight: 1
+      - path: Spine_Hip/R_Leg_Hip/R_Leg_Knee
+        weight: 1
+      - path: Spine_Hip/R_Leg_Hip/R_Leg_Knee/R_Leg_Ankle
+        weight: 1
+      - path: Spine_Hip/R_Leg_Hip/R_Leg_Knee/R_Leg_Ankle/R_Foot
+        weight: 1
+      - path: Spine_Hip/Spine_Mid
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder/L_Elbow
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist/L_Hand_HelperJoint
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist/L_Hand_HelperJoint/L_Pinky_Knuckle
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist/L_Hand_HelperJoint/L_Pinky_Knuckle/L_Pinky_Mid
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist/L_Hand_HelperJoint/L_Pinky_Knuckle/L_Pinky_Mid/L_Pinky_Tip
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist/L_Hand_HelperJoint/L_Ring_Knuckle
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist/L_Hand_HelperJoint/L_Ring_Knuckle/L_Ring_Mid
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist/L_Hand_HelperJoint/L_Ring_Knuckle/L_Ring_Mid/L_Ring_Tip
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist/L_Index_Knuckle
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist/L_Index_Knuckle/L_Index_Mid
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist/L_Index_Knuckle/L_Index_Mid/L_Index_Tip
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist/L_Middle_Knuckle
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist/L_Middle_Knuckle/L_Middle_Mid
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist/L_Middle_Knuckle/L_Middle_Mid/L_Middle_Tip
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist/L_Thumb_Knuckle
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist/L_Thumb_Knuckle/L_Thumb_Mid
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/L_Clavicle/L_Shoulder/L_Elbow/L_Wrist/L_Thumb_Knuckle/L_Thumb_Mid/L_Thumb_Tip
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder/R_Elbow
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist/R_Hand_HelperJoint
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist/R_Hand_HelperJoint/R_Pinky_Knuckle
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist/R_Hand_HelperJoint/R_Pinky_Knuckle/R_Pinky_Mid
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist/R_Hand_HelperJoint/R_Pinky_Knuckle/R_Pinky_Mid/R_Pinky_Tip
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist/R_Hand_HelperJoint/R_Ring_Knuckle
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist/R_Hand_HelperJoint/R_Ring_Knuckle/R_Ring_Mid
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist/R_Hand_HelperJoint/R_Ring_Knuckle/R_Ring_Mid/R_Ring_Tip
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist/R_Index_Knuckle
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist/R_Index_Knuckle/R_Index_Mid
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist/R_Index_Knuckle/R_Index_Mid/R_Index_Tip
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist/R_Middle_Knuckle
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist/R_Middle_Knuckle/R_Middle_Mid
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist/R_Middle_Knuckle/R_Middle_Mid/R_Middle_Tip
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist/R_Thumb_Knuckle
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist/R_Thumb_Knuckle/R_Thumb_Mid
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/R_Clavicle/R_Shoulder/R_Elbow/R_Wrist/R_Thumb_Knuckle/R_Thumb_Mid/R_Thumb_Tip
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/Spine_Neck
+        weight: 1
+      - path: Spine_Hip/Spine_Mid/Spine_Neck_Base/Spine_Neck/Spine_Head
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
