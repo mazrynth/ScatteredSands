@@ -13,6 +13,9 @@ TagManager:
   - Blast
   - 'Spiral '
   - Fire
+  - Flash
+  - Bridge
+  - guard
   layers:
   - Default
   - TransparentFX

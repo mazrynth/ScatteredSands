@@ -6,8 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/ALPHA/Scenes/Start_Menu_Alpha.unity
+  - enabled: 0
     path: Assets/Scenes/Start_Menu.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/VERTICAL_SLICE_TutorialLevel.unity
   - enabled: 0
     path: Assets/Scenes/Level1.unity
+  - enabled: 1
+    path: Assets/ALPHA/Scenes/Level 1_Alpha.unity

@@ -61,9 +61,15 @@
      <Compile Include="Assets\Ian_Stuff\Scripts\NavAgent2.cs" />
      <Compile Include="Assets\Ian_Stuff\Scripts\Play_Cutscene.cs" />
      <Compile Include="Assets\Ian_Stuff\Scripts\Player_Health.cs" />
+     <Compile Include="Assets\Ian_Stuff\Scripts\bridge_Puzzle.cs" />
+     <Compile Include="Assets\Ian_Stuff\Scripts\guiding_Light.cs" />
+     <Compile Include="Assets\Ian_Stuff\Scripts\light_Obelisk.cs" />
+     <Compile Include="Assets\Ian_Stuff\Scripts\light_Obelisk_Fin.cs" />
      <Compile Include="Assets\Ian_Stuff\Scripts\respawn_Node.cs" />
      <Compile Include="Assets\Ian_Stuff\Scripts\rotate_Puzzle.cs" />
      <Compile Include="Assets\Ian_Stuff\Scripts\rotate_Statue.cs" />
+     <Compile Include="Assets\Ian_Stuff\Scripts\water_Death.cs" />
+     <Compile Include="Assets\Ian_Stuff\Scripts\water_Guard.cs" />
      <Compile Include="Assets\Ian_Stuff\Toggle_Icon.cs" />
      <Compile Include="Assets\Ian_Stuff\Warp_Shortcut.cs" />
      <Compile Include="Assets\Scripts\EnemyFollow.cs" />
