@@ -6,6 +6,7 @@ public class Dialogue : MonoBehaviour {
 	public Transform Player;
 	int MaxDist = 5;
 	public AudioSource mySound;
+	public AudioSource mySound2;
 
 	public Transform canvas;
 
@@ -25,6 +26,7 @@ public class Dialogue : MonoBehaviour {
 		if (other.tag == "Player") {
 			Show ();
 			mySound.Play();
+			mySound2.Play ();
 
 		}
 	}
