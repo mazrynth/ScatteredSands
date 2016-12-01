@@ -17,7 +17,7 @@ public class Dialogue : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetButtonDown ("Submit")) {
+		if (Input.GetButton("Deselect")) {
 			canvas.gameObject.SetActive (false);
 			mySound.Stop ();
 		}
