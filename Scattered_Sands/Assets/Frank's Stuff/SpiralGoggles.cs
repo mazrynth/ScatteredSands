@@ -22,7 +22,7 @@ public class SpiralGoggles : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.R))
+		if (Input.GetButtonDown ("Fire2"))
         {
            if (splight.enabled == false)
             {

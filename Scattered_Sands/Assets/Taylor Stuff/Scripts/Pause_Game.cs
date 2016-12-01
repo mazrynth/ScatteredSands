@@ -12,6 +12,9 @@ public class Pause_Game : MonoBehaviour {
 	public Button exit;
 	AudioSource level_Music;
 	int game_State;
+	public Transform controls;
+	public Transform back;
+
 	void Start () 
 	{
 		game_State = 1;
@@ -27,7 +30,7 @@ public class Pause_Game : MonoBehaviour {
 
 
 	void Update () {
-		if (Input.GetKeyDown (KeyCode.Escape)) {
+		if (Input.GetButtonDown ("Cancel")) {
 			Pause();
 		}
 
@@ -76,6 +79,16 @@ public class Pause_Game : MonoBehaviour {
 
 	}
 
+	public void Controls()
+	{
+		if (controls.gameObject.activeInHierarchy == false) {
+			controls.gameObject.SetActive (true);
+			back.gameObject.SetActive (true);
+		} else {
+			controls.gameObject.SetActive (false);
+			back.gameObject.SetActive (false);
+		}
 
+	}
 
 }
