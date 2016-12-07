@@ -24,9 +24,12 @@ public class Play_Cutscene : MonoBehaviour
 
 
 
+
 	// Use this for initialization
 	void Start () 
 	{
+		
+			
 		GetComponent<RawImage>().texture = movie as MovieTexture;		//Assigns the rawimage UI element's texture reference to become the movie.
 		sound = GetComponent<AudioSource>();
 		sound.clip = movie.audioClip;
@@ -40,7 +43,7 @@ public class Play_Cutscene : MonoBehaviour
 
 
 	}
-	
+
 	// Update is called once per frame
 	void Update () 
 	{
@@ -48,18 +51,15 @@ public class Play_Cutscene : MonoBehaviour
 		{
 			remove_Cutscene();
 		}
-
-		/* disabled for presentation.
-		 * 
-		 * 
+			
 		//End cutscene on key press.
 		if(Input.GetKeyDown(KeyCode.Return))
 		{
 			print("Cutscene cancelled");
 			remove_Cutscene();
 		}
-
-		*/
+		if (Input.GetButtonDown("Submit"))
+			remove_Cutscene();
 
 	}
 
@@ -101,7 +101,6 @@ public class Play_Cutscene : MonoBehaviour
 
 
 	}
-
-
+		
 
 }

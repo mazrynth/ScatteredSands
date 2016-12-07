@@ -6,7 +6,7 @@ public class Dialogue : MonoBehaviour {
 	public Transform Player;
 	int MaxDist = 5;
 	public AudioSource mySound;
-
+	public AudioSource mySound2;
 
 	public Transform canvas;
 
@@ -17,18 +17,19 @@ public class Dialogue : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetButton("Deselect")) {
+		if (Input.GetButtonDown ("Deselect")) {
 			canvas.gameObject.SetActive (false);
-			mySound.Stop ();
+			mySound.Stop();
+			mySound2.Stop ();
+			//Destroy (canvas);
 		}
-	
 	}
 	private void OnTriggerEnter(Collider other)
 	{	
 		if (other.tag == "Player") {
 			Show ();
 			mySound.Play();
-
+			mySound2.Play ();
 
 		}
 	}

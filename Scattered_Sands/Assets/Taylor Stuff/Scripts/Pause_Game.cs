@@ -30,7 +30,7 @@ public class Pause_Game : MonoBehaviour {
 
 
 	void Update () {
-		if (Input.GetButtonDown ("Cancel")) {
+		if (Input.GetButtonDown("Cancel")) {
 			Pause();
 		}
 
@@ -40,7 +40,7 @@ public class Pause_Game : MonoBehaviour {
 	public void ExitGame ()
 
 	{
-		SceneManager.LoadScene ("Start_Menu");
+		Application.Quit();
 	}
 
 	public void Pause()
@@ -79,16 +79,17 @@ public class Pause_Game : MonoBehaviour {
 
 	}
 
-	public void Controls()
-	{
+	public void Controls() {
 		if (controls.gameObject.activeInHierarchy == false) {
 			controls.gameObject.SetActive (true);
 			back.gameObject.SetActive (true);
-		} else {
+		} 
+		else {
 			controls.gameObject.SetActive (false);
 			back.gameObject.SetActive (false);
 		}
-
 	}
+
+
 
 }

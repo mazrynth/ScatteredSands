@@ -34,7 +34,7 @@ public class rotate_Statue : MonoBehaviour
 		//if left mouse click is activated while rotation gauntlets are equipped:
 		if (other.gameObject.CompareTag ("Player"))  
 		{
-			if(Input.GetMouseButtonDown(0))
+			if(Input.GetButton("Select"))
 			{
 				//rotate this object 90 degrees.
 				//Vector3 eulerAngles = transform.rotation.eulerAngles;

@@ -20,7 +20,7 @@ public class BlastCouplings : MonoBehaviour {
     {
         cooldownTimer -= Time.deltaTime;
 
-		if (Input.GetButtonDown ("Fire3") && cooldownTimer <= 0)
+		if (Input.GetButtonDown("Fire3") && cooldownTimer <= 0)
         {
             GameObject clone = Instantiate(blastCouplings, shootPos.position, shootPos.rotation) as GameObject;
             clone.GetComponent<Rigidbody>().AddForce(shootPos.forward * 2500);

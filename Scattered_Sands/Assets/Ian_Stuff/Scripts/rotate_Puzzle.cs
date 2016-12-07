@@ -20,7 +20,7 @@ public class rotate_Puzzle : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		rotationStatues = GameObject.FindGameObjectsWithTag("Rotate");
+		//rotationStatues = GameObject.FindGameObjectsWithTag("Rotate");
 	}
 	
 	// Update is called once per frame
@@ -62,6 +62,7 @@ public class rotate_Puzzle : MonoBehaviour
 		{
 			if(rotationStatue.GetComponent<rotate_Statue>().isActive == false)
 			{
+				print("nopeee");
 				//Keep going...
 				all_Active = false;
 				return;

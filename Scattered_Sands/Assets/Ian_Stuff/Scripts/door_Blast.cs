@@ -25,7 +25,7 @@ public class door_Blast : MonoBehaviour {
 		//if left mouse click is activated while rotation gauntlets are equipped:
 		if (other.gameObject.CompareTag ("Player"))  
 		{
-			if(Input.GetMouseButtonDown(0))
+			if(Input.GetButton("Select"))
 			{
 				AudioSource.PlayClipAtPoint(activate, this.gameObject.transform.position);
 				Destroy(gameObject);

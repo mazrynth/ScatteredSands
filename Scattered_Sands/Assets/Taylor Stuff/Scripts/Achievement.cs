@@ -25,6 +25,8 @@ public class Achievement : MonoBehaviour {
 			}*/
 		if(Input.GetKeyDown(KeyCode.B))
 			canvas.gameObject.SetActive (false);
+		if (Input.GetButtonDown("Submit"))
+			canvas.gameObject.SetActive (false);
 	}
 
 	private void OnTriggerEnter(Collider other)
